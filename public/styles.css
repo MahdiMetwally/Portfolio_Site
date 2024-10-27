@@ -25,7 +25,7 @@ header nav a {
 }
 
 section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #about, #projects, #skills, #contact {
@@ -44,3 +44,73 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+/* Carousel container */
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel slide */
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Carousel item */
+.carousel-item {
+    min-width: 100%;
+    padding: 20px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.carousel-item h3 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.carousel-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.carousel-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.carousel-item a:hover {
+    text-decoration: underline;
+}
+
+/* Carousel controls */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+

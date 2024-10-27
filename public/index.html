@@ -15,6 +15,7 @@
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -22,34 +23,89 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Mahdi Metwally, a software engineer with a passion for backend engineering, cloud computing, and data science.</p>
+        <p>Hello! I'm Mahdi Metwally, and although I am a recent graduate with limited professional experience, I keep myself busy working on personal and group projects. I have completed one six-month internship and learned a great deal from it. I know that I will bring significant value to your team as I thrive and in a collaborative environment and am highly determined in my work because I'm truly passionate about it.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Project description here...</p>
-            <a href="https://github.com/your-repo-link">View on GitHub</a>
+    <!-- Projects Section with Carousel -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="carousel-container">
+        <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="carousel-slide">
+            <div class="carousel-item">
+                <h3>Project 1</h3>
+                <p>Smart Image Dog Breed Classifier</p>
+                <a href="https://github.com/your-repo-link-1" target="_blank">View on GitHub</a>
+            </div>
+            <div class="carousel-item">
+                <h3>Project 2</h3>
+                <p>Brief description of Project 2</p>
+                <a href="https://github.com/your-repo-link-2" target="_blank">View on GitHub</a>
+            </div>
+            <div class="carousel-item">
+                <h3>Project 3</h3>
+                <p>Brief description of Project 3</p>
+                <a href="https://github.com/your-repo-link-3" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Add more projects as needed -->
         </div>
-        <!-- Add more projects as needed -->
-    </section>
+        <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</section>
+
 
     <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, JavaScript, etc.</li>
-            <li>Frameworks: Node.js, React, etc.</li>
-            <li>Tools: Git, Docker, AWS, etc.</li>
-        </ul>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Languages & Frameworks</h3>
+            <ul>
+                <li>Python (TensorFlow, Keras, PyMath, Flask, Django, Pandas)</li>
+                <li>JavaScript (React, Node.js, jQuery)</li>
+                <li>Java (Spring Boot, JUnit)</li>
+                <li>C/C++, HTML, CSS, PHP, TypeScript, C#, Ruby</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Cloud & DevOps</h3>
+            <ul>
+                <li>AWS, Azure, Docker, Kubernetes</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Databases</h3>
+            <ul>
+                <li>MySQL, GraphQL, SQL/NoSQL</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Machine Learning & Data Science</h3>
+            <ul>
+                <li>TensorFlow, Keras, Scikit-learn, SAS, Google Chart</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Other Tools</h3>
+            <ul>
+                <li>Linux, RESTful APIs, MATLAB, Prolog, Git</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Click the link below to view or download my resume:</p>
+        <a href="assets/Mahdi_Metwally_Resume.pdf" target="_blank">View Resume (PDF)</a>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Feel free to reach out to me via email at <a href="mailto:mahdimetwally@gmail.com">your-email@example.com</a> or connect with me on <a href="https://www.linkedin.com/in/mahdi-metwally">LinkedIn</a>.</p>
+        <p>Feel free to reach out to me via email at <a href="mailto:mahdimetwally@gmail.com">mahdimetwally@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/mahdi-metwally">LinkedIn</a>.</p>
     </section>
 
     <!-- Footer -->
